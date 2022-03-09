@@ -115,8 +115,8 @@ let sum = function(a, b, c, d) {
 let newSum = (a, b, c, d) => a + b + c + d;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
+console.log(sum(1, 2, 3, 4));
 console.log(newSum(1, 2, 3, 4));
-
 
 let objectLit = function() {
   return {
@@ -126,9 +126,15 @@ let objectLit = function() {
   };
 };
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(objectLit());
+let newObjectLit = array => ({
+  key1: 'value1',
+  key2: 'value2',
+  key3: 'value3',
+});
 
+// TODO: Uncomment the following line of code to see the output in the browser console
+console.log(objectLit());
+console.log(newObjectLit());
 
 let sumAndProduct = function(a, b) {
   let sum = a + b;
