@@ -142,9 +142,11 @@ let sumAndProduct = function(a, b) {
   return [sum, product];
 };
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(sumAndProduct(3, 9));
+let newSumAndProduct = (a, b) => [a + b, a * b];
 
+// TODO: Uncomment the following line of code to see the output in the browser console
+console.log(sumAndProduct(3, 9));
+console.log(newSumAndProduct(3, 9));
 
 let message = function(name) {
   return `Hello, ${name}!`;
