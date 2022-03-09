@@ -152,9 +152,11 @@ let message = function(name) {
   return `Hello, ${name}!`;
 };
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(message('Allie'));
+let newMessage = (name) => `Hello, ${name}!`;
 
+// TODO: Uncomment the following line of code to see the output in the browser console
+console.log(message('Allie'));
+console.log(newMessage('Allie'));
 
 let Student = function(name, age, hometown) {
   this.name = name;
